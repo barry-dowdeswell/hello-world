@@ -7,6 +7,16 @@ and here is some code:
 // hello, GitHub
 // ~~~~~~~~~~~~~
 int main(int argv, char* args[]{
-  printf("hello, GitHub\n);
-  return 0
+  printf("hello, GitHub\n); //whoops...forgot the eol.
+  return 0;
+}  
+
+//
+// checkmaster
+// ~~~~~~~~~~~
+// Checks the name of the current master
+//
+int checkmaster{char* mastername){
+  // code goes here...
+  return 0;
 }  
